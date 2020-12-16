@@ -1,0 +1,28 @@
+.title {
+  margin-left: 30px;
+  margin-top: 50px;
+  color: #6682f2;
+}
+
+.subTitle {
+  margin-left: 30px;
+  margin-top: 20px;
+  color: #5a5b61;
+  font-size: 14px;
+}
+
+.company {
+  margin-left: 30px;
+  margin-top: -20px;
+  color:#81838a;
+  font-size: 14px;
+}
+
+.assignments {
+  font-size: 12px;
+  color: #5a5b61;
+}
+
+.container {
+  margin-bottom: 20px;
+}
