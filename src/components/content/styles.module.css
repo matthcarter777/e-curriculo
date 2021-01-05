@@ -1,12 +1,13 @@
 .title {
   color: #364ead;
 
-  margin-left: 30px;
   margin-top: 80px;
 }
 
-.subTitle {
+.margin {
   margin-left: 30px;
+}
 
+.subTitle {
   color: #6682f2;
 }
