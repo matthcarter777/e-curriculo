@@ -1,0 +1,29 @@
+.container {
+    width: 500px;
+    height: 300px;
+    margin-left: 30px;
+}
+
+.title {
+    margin-top: 74px;
+    color:  #6682f2;
+}
+
+.background {
+    
+}
+
+.footerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+
+    font-size: large;
+    font: bold;
+}
+
+.link {
+    text-decoration: none;
+    color: #666666;
+}

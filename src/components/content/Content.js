@@ -3,14 +3,15 @@ import EducationHistory from '../educationHistory/EducationHistory';
 import PersonalProfile from '../personalProfile/PersonalProfile';
 import Porjects from '../projects/Projects';
 import WorkExperience from '../workExperience/WorkExperience';
+import Title from '../title/Title';
 
 import css from './styles.module.css';
 
 export default function Content() {
   return (
-    <div>
+    <div className={css.margin}>
       <h1 className={css.title}>MATEUS HENRIQUE DA SILVA</h1>
-      <h2 className={css.subTitle}>DEVELOPER</h2>
+      <Title description="DEVELOPER" />
       <PersonalProfile />
       <WorkExperience />
       <EducationHistory />
