@@ -1,6 +1,7 @@
 import React from 'react'
 import EducationHistory from '../educationHistory/EducationHistory';
 import PersonalProfile from '../personalProfile/PersonalProfile';
+import Porjects from '../projects/Projects';
 import WorkExperience from '../workExperience/WorkExperience';
 
 import css from './styles.module.css';
@@ -13,6 +14,7 @@ export default function Content() {
       <PersonalProfile />
       <WorkExperience />
       <EducationHistory />
+      <Porjects />
     </div>
   )
 }
