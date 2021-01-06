@@ -4,6 +4,7 @@ import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
 import { AiOutlineGithub } from "react-icons/ai";
 import { SiJavascript } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
 
 import Title from '../title/Title';
 
@@ -30,41 +31,41 @@ export default function Porjects() {
                         >   
                             <div className={css.git}>
                                 <p className= {css.icon}> <AiOutlineGithub size={20} color="#666666"/> </p>
-                                <strong>Link github</strong>
+                                <strong>Github</strong>
                             </div>
                         </a>
                     </div>
                 </div>
                 <div className={css.background}>
-                    <h1>e-Curriculo</h1>
-                    <p>virtual curriculum created in react</p>
+                    <h1>Proffy-front-end-reactJS</h1>
+                    <p>Application developed during Next Level Week # 2</p>
                     <div className={css.footerContainer}>
                         <div className={css.linguage}>
-                            <p> <SiJavascript size={20} color="#000"/> </p>
-                            <p>Javascript</p>
+                            <p> <SiTypescript size={20} color="#000"/> </p>
+                            <p>Typescript</p>
                         </div>
                         <a 
-                        href="https://github.com/matthcarter777/e-curriculo" 
+                        href="https://github.com/matthcarter777/Proffy-front-end-reactJS" 
                         className={css.link}
                         target="_blank"
                         >
                             <div className={css.git}>
                                 <p className= {css.icon}> <AiOutlineGithub size={20} color="#666666"/> </p>
-                                <strong>Link github</strong>
+                                <strong>Github</strong>
                             </div>
                         </a>
                     </div>
                 </div>
                 <div className={css.background}>
-                    <h1>e-Curriculo</h1>
-                    <p>virtual curriculum created in react</p>
+                    <h1>Go-Barber-ReactJS</h1>
+                    <p>Frontend developed in react.js in the Rocketseat bootcamp</p>
                     <div className={css.footerContainer}>
                         <div className={css.linguage}>
-                            <p> <SiJavascript size={20} color="#000"/> </p>
-                            <p>Javascript</p>
+                            <p> <SiTypescript size={20} color="#000"/> </p>
+                            <p>Typescript</p>
                         </div>
                         <a 
-                        href="https://github.com/matthcarter777/e-curriculo" 
+                        href="https://github.com/matthcarter777/Go-Barber-ReactJS" 
                         className={css.link}
                         target="_blank"
                         >
