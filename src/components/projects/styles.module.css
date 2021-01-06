@@ -1,16 +1,10 @@
 .container {
-    width: 500px;
+    width: 600px;
     height: 300px;
+}
+
+.slide {
     margin-left: 30px;
-}
-
-.title {
-    margin-top: 74px;
-    color:  #6682f2;
-}
-
-.background {
-    
 }
 
 .footerContainer {
@@ -26,4 +20,14 @@
 .link {
     text-decoration: none;
     color: #666666;
+}
+
+.git {
+    display: flex;
+    align-items: center;
+}
+
+.linguage {
+    display: flex;
+    align-items: center;
 }

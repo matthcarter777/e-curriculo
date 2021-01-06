@@ -1,11 +1,13 @@
 import React from 'react'
 
+import Title from '../title/Title';
+
 import css from './styles.module.css';
 
 export default function EducationHistory() {
   return (
     <div>
-      <h3 className={css.title}>EDUCATIONAL HISTORY</h3>
+      <Title description="EDUCATIONAL HISTORY" />
       <div className={css.container}>
         <h4 className={css.subTitle}>IF Goiano - Campus Campos Belos </h4>
         <h4 className={css.company}>internet computer technician | Jan 2017 - Jul 2018</h4>
