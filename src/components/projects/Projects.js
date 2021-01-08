@@ -15,13 +15,13 @@ export default function Porjects() {
     <div className={css.container}>
         <Title description="PROJECTS" />
         <div className={css.slide}>
-            <AwesomeSlider  className={css.background}>
+            <AwesomeSlider  background='#fff'>
                 <div className={css.background}>
-                    <h1>e-Curriculo</h1>
-                    <p>virtual curriculum created in react</p>
+                    <h1 className={css.title}>e-Curriculo</h1>
+                    <p className={css.title}>virtual curriculum created in react</p>
                     <div className={css.footerContainer}>
                         <div className={css.linguage}>
-                            <p> <SiJavascript size={20} color="#000"/> </p>
+                            <p> <SiJavascript size={20} color="#fff"/> </p>
                             <p>Javascript</p>
                         </div>
                         <a 
@@ -30,18 +30,18 @@ export default function Porjects() {
                         target="_blank"
                         >   
                             <div className={css.git}>
-                                <p className= {css.icon}> <AiOutlineGithub size={20} color="#666666"/> </p>
+                                <p className= {css.icon}> <AiOutlineGithub size={20} className={css.icon}/> </p>
                                 <strong>Github</strong>
                             </div>
                         </a>
                     </div>
                 </div>
                 <div className={css.background}>
-                    <h1>Proffy-front-end-reactJS</h1>
-                    <p>Application developed during Next Level Week # 2</p>
+                    <h1 className={css.title}>Proffy-front-end-reactJS</h1>
+                    <p className={css.title}>Application developed during Next Level Week # 2</p>
                     <div className={css.footerContainer}>
                         <div className={css.linguage}>
-                            <p> <SiTypescript size={20} color="#000"/> </p>
+                            <p> <SiTypescript size={20} color="#fff"/> </p>
                             <p>Typescript</p>
                         </div>
                         <a 
@@ -50,18 +50,18 @@ export default function Porjects() {
                         target="_blank"
                         >
                             <div className={css.git}>
-                                <p className= {css.icon}> <AiOutlineGithub size={20} color="#666666"/> </p>
+                                <p className= {css.icon}> <AiOutlineGithub size={20} /> </p>
                                 <strong>Github</strong>
                             </div>
                         </a>
                     </div>
                 </div>
                 <div className={css.background}>
-                    <h1>Go-Barber-ReactJS</h1>
-                    <p>Frontend developed in react.js in the Rocketseat bootcamp</p>
+                    <h1 className={css.title}>Go-Barber-ReactJS</h1>
+                    <p className={css.title}>Frontend developed in react.js in the Rocketseat bootcamp</p>
                     <div className={css.footerContainer}>
                         <div className={css.linguage}>
-                            <p> <SiTypescript size={20} color="#000"/> </p>
+                            <p> <SiTypescript size={20} color="#fff"/> </p>
                             <p>Typescript</p>
                         </div>
                         <a 
@@ -70,8 +70,8 @@ export default function Porjects() {
                         target="_blank"
                         >
                             <div className={css.git}>
-                                <p className= {css.icon}> <AiOutlineGithub size={20} color="#666666"/> </p>
-                                <strong>Link github</strong>
+                                <p className= {css.icon}> <AiOutlineGithub size={20} /> </p>
+                                <strong>Github</strong>
                             </div>
                         </a>
                     </div>

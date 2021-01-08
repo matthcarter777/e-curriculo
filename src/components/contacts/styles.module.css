@@ -14,6 +14,9 @@
 .icon {
   margin-right: 10px;
 }
+.icon:hover {
+  color: #979899;
+}
 
 .justify {
   
@@ -30,4 +33,8 @@
   color: #fff;
 
   font-size: 9px;
+}
+
+.description:hover {
+  color: #979899;
 }

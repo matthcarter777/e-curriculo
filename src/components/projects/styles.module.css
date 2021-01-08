@@ -3,6 +3,10 @@
     height: 300px;
 }
 
+.title {
+    color: #c3c3c3;
+}
+
 .slide {
     margin-left: 30px;
 }
@@ -19,7 +23,11 @@
 
 .link {
     text-decoration: none;
-    color: #666666;
+    color: #fff;
+}
+
+.link:hover {
+    color:  #666666;
 }
 
 .git {
@@ -30,4 +38,5 @@
 .linguage {
     display: flex;
     align-items: center;
+    color: #fff;
 }
